@@ -109,18 +109,6 @@ async function getAllCoins() {
 }
 		
 
-
-  
-  // Ejemplo de uso
-//   var capitalInicial = 10000;
-//   var tasaInteresMensual = 0.04;
-//   var vecesCompuesto = 12;
-//   var añosInversión = 1;
-  
-//   var gananciaAnual = calcularGananciaAnualInteresCompuesto(capitalInicial, tasaInteresMensual, vecesCompuesto, añosInversión);
-//   console.log(gananciaAnual); // Imprime: 11678.87
-  
-
 module.exports = {
 	createUser,
 	getUserByEmail,

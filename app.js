@@ -34,7 +34,7 @@ server.use("/users", users);
 server.use("/coins", coins);
 server.use("/investments", investments);
 
-// Error catching endware.
+
 server.use((err, req, res, next) => {
   // eslint-disable-line no-unused-vars
   const status = err.status || 500;
